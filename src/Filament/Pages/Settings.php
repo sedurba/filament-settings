@@ -27,7 +27,7 @@ class Settings extends Page
 
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-cog';
 
-    protected static string $view = 'filament-settings::filament/pages/settings';
+    protected string $view = 'filament-settings::filament/pages/settings';
 
     public static function getNavigationLabel() : string
     {
