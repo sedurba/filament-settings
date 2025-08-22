@@ -25,7 +25,7 @@ class Settings extends Page
 
     public ?array $data = [];
 
-    protected static ?string $navigationIcon = 'heroicon-o-cog';
+    protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-cog';
 
     protected static string $view = 'filament-settings::filament/pages/settings';
 
